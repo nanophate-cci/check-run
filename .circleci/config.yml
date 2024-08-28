@@ -4,6 +4,6 @@ jobs:
   build:
     docker:
       - image: cimg/base:stable
-    step:
+    steps:
       - checkout
       - run: sleep 10
